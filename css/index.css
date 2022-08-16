@@ -1,0 +1,124 @@
+/*------------------------- Home Page -------------------------*/
+.section-hero {
+  background: url("../images/hero-background.jpg") center bottom no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 70vh;
+  position: relative;
+}
+
+.about-us {
+  margin: 50px auto;
+}
+
+/*------------------------- About Section -------------------------*/
+
+.about-us-text {
+  font-size: 1.2em;
+  line-height: 2.5;
+  color: #0a3641;
+}
+
+.about-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.learn-more-link:link,
+.learn-more-link:visited {
+  text-decoration: underline;
+  font-style: oblique;
+  float: right;
+  margin-right: 11%;
+  color: #0a3641;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+
+.learn-more-link:hover,
+.learn-more-link:active {
+  color: #5f9fad;
+}
+
+/*------------------------- Featured Section -------------------------*/
+
+.featured {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 50px auto;
+  gap: 10px;
+}
+
+.featured .products {
+  background-color: #5f9fad;
+  min-width: 14em;
+  padding: 1em;
+}
+
+.about-us {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us > * {
+  flex: 1;
+}
+
+/* .about-us h1 {
+  text-align: left;
+} */
+
+.featured-jacket {
+  margin-bottom: 30px;
+}
+
+.jacket-4 {
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+/*------------------------- Instagram & Email Section -------------------------*/
+
+.instagram-email {
+  background-color: #e8e8e8;
+  padding: 50px;
+}
+
+.instagram-grid {
+  display: grid;
+  margin: 50px auto;
+  max-width: 1400px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.instagram-grid * > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.instagram-grid-col-2 {
+  grid-column: span 2;
+}
+
+.instagram-grid-row-2 {
+  grid-row: span 2;
+}
+
+.email-input {
+  margin: auto;
+  text-align: center;
+  width: 65%;
+}
+
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px 80px 10px 100px;
+}
