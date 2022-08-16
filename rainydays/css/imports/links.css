@@ -1,0 +1,93 @@
+/*------------------------- Links -------------------------*/
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #0a3641;
+  padding: 10px;
+}
+
+.cta {
+  background-color: #fff;
+  color: #0a3641;
+  border: 2px solid #0a3641;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cta:before {
+  content: "";
+  padding: 10px;
+  background: #5f9fad;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 100px;
+  top: -40px;
+  left: -100px;
+  transition: left ease-in-out 1s;
+  opacity: 0.3;
+}
+
+.cta:hover:before {
+  left: 110%;
+}
+
+.cta-large {
+  padding: 10px 40px;
+}
+
+.cta-small {
+  padding: 8px 20px;
+  font-size: 0.8em;
+  grid-row: 2/4;
+  grid-column: 2;
+  min-width: 51.2px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.products {
+  background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.products img {
+  grid-column: -1/1;
+}
+
+.products h3,
+.products h2,
+.products p {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+}
+
+.products--sale {
+  display: flex;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.cta-sale {
+  background-color: #0a3641;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
