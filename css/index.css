@@ -7,11 +7,11 @@
   position: relative;
 }
 
+/*------------------------- About Section -------------------------*/
+
 .about-us {
   margin: 50px auto;
 }
-
-/*------------------------- About Section -------------------------*/
 
 .about-us-text {
   font-size: 1.2em;
@@ -20,9 +20,18 @@
 }
 
 .about-header {
-  margin-top: 50px;
   margin-bottom: 30px;
   text-align: left;
+}
+
+.about-us {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us > * {
+  flex: 1;
 }
 
 .learn-more-link:link,
@@ -58,20 +67,6 @@
   padding: 1em;
 }
 
-.about-us {
-  max-width: 1500px;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-us > * {
-  flex: 1;
-}
-
-/* .about-us h1 {
-  text-align: left;
-} */
-
 .featured-jacket {
   margin-bottom: 30px;
 }
@@ -93,7 +88,7 @@
   display: grid;
   margin: 50px auto;
   max-width: 1400px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
@@ -121,5 +116,27 @@ input {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
   margin: 10px 10px;
-  padding: 10px 80px 10px 100px;
+  padding: 10px 30px 10px 45px;
+}
+
+/*------------------------- Footer Section -------------------------*/
+
+.footer {
+  background-color: #5f9fad;
+  border-top: 1px solid #eee;
+  padding: 50px 0;
+  width: cover;
+  height: 30rem;
+  list-style: none;
+}
+
+.footer-logo {
+  height: 50%;
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: #0a3641;
+  text-decoration: none;
+  list-style: none;
 }

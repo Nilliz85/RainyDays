@@ -11,14 +11,6 @@
 /*---------------------- 600px ----------------------*/
 
 @media (min-width: 600px) {
-  .featured {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .about-us {
-    flex-direction: row;
-  }
-
   header {
     justify-content: start;
   }
@@ -37,6 +29,18 @@
     display: none;
   }
 
+  .about-us {
+    flex-direction: row;
+  }
+
+  .about-us h2 {
+    text-align: left;
+  }
+
+  .featured {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .product-specific {
     flex-direction: column-reverse;
   }
@@ -49,10 +53,6 @@
     flex-direction: row;
   }
 
-  .about-us h2 {
-    text-align: left;
-  }
-
   .instagram-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -60,12 +60,13 @@
 /*---------------------- 800px ----------------------*/
 
 @media (min-width: 800px) {
-  .featured {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .section-hero {
     background-position-x: right;
+  }
+
+  .featured {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 45px 0px 0px 100px;
   }
 
   .instagram-grid {
