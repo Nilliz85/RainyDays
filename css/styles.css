@@ -61,3 +61,56 @@ footer {
 img {
   width: 100%;
 }
+/*------------------------- header Section -------------------------*/
+
+.header-logo {
+  max-width: 100px;
+}
+
+/*------------------------- Footer Section -------------------------*/
+
+.footer {
+  background-color: #5f9fad;
+  border-top: 1px solid #eee;
+  padding: 50px 0;
+  width: cover;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.footer-logo {
+  height: 136px;
+  width: auto;
+  margin: 70px auto;
+}
+
+.footer nav {
+  background-color: #5f9fad;
+  position: static;
+  display: block;
+  margin: 50px auto;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.footer-link {
+  margin: 15px auto;
+}
+
+.footer-social {
+  list-style: none;
+  text-align: center;
+  margin: 50px 90px 50px 50px;
+}
+
+.fa-brands {
+  color: #0a3641;
+}

@@ -9,17 +9,18 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/54814e5974.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo">RAINYDAYS</a>
+      <a href="index.html" class="header-logo"><img class="header-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"/></a>
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="jackets.html">Jackets</a></li>
+          <li><a href="about_us.html">About Us</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -105,7 +106,29 @@
 
     <!-------------------------------- Footer -------------------------------->
 
-    <footer>
+    <footer class="footer">
+      <section class="footer-grid">
+        <div class="logo-col">
+          <a href="#" class="footer-logo"><img class="footer-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"/></a>
+        </div>
+        <nav>
+          <ul class="footer-nav">
+            <li class="footer-header"><h2>RainyDays</h2></li>
+            <li class="footer-link" href="jackets.html" >Products</li>
+            <li class="footer-link" href="https://www.instagram.com/rainy_days_1985/" >#RAINYDAYS</li>
+            <li class="footer-link" href="about_us.html" >About Us</li>
+            <li class="footer-link" href="contact.html" >Contact</li>
+          </ul>  
+        </nav>
+
+        <ul class="footer-social">
+          <li class="footer-header"><h2>Social Media</h2></li>
+          <li class="footer-link"><a class="footer-link instagram" href="https://www.instagram.com/rainy_days_1985/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+          <li class="footer-link"><a class="footer-link facebook" href="https://www.facebook.com/hashtag/rainydays" target="_blank"><i class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+          <li class="footer-link"><a class="footer-link twitter" href="https://twitter.com/search?q=%23rainydays&src=typed_query&f=image" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+        </ul>
+      </section>
+
       <p class="copyright">Copyright &copy; 2027 by RAINYDAYS, Inc. All rights reserved.</p>
     </footer>
   </body>

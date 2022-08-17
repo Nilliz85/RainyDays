@@ -118,25 +118,3 @@ input {
   margin: 10px 10px;
   padding: 10px 30px 10px 45px;
 }
-
-/*------------------------- Footer Section -------------------------*/
-
-.footer {
-  background-color: #5f9fad;
-  border-top: 1px solid #eee;
-  padding: 50px 0;
-  width: cover;
-  height: 30rem;
-  list-style: none;
-}
-
-.footer-logo {
-  height: 50%;
-  margin-right: 10px;
-}
-
-.footer-text {
-  color: #0a3641;
-  text-decoration: none;
-  list-style: none;
-}
