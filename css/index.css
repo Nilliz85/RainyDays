@@ -1,10 +1,22 @@
 /*------------------------- Home Page -------------------------*/
 .section-hero {
-  background: url("../images/hero-background.jpg") center bottom no-repeat;
+  background: url("../images/hero-background-wide.jpg") center bottom no-repeat;
   background-size: cover;
-  background-position: 50%;
   min-height: 70vh;
   position: relative;
+}
+
+.section-hero-content {
+  position: absolute;
+  text-align: center;
+  margin: 100px 200px auto;
+  transform: translateX(-50%);
+  min-width: 210px;
+}
+
+.section-hero-content h1 {
+  color: #fff;
+  font-size: 40px;
 }
 
 /*------------------------- About Section -------------------------*/

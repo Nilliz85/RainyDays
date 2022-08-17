@@ -64,6 +64,12 @@
     background-position-x: right;
   }
 
+  .section-hero-content {
+    top: 100px;
+    left: 100px;
+    transform: none;
+  }
+
   .featured {
     grid-template-columns: repeat(3, 1fr);
     margin: 45px 0px 0px 100px;

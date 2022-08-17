@@ -37,6 +37,11 @@ header a {
   left: 110%;
 }
 
+.cta-hero {
+  background-color: #f6ce2e;
+  color: #0a3641;
+}
+
 .cta-large {
   padding: 10px 40px;
 }
@@ -83,6 +88,11 @@ header a {
 }
 
 .cta-sale {
+  background-color: #f6ce2e;
+  color: #fff;
+}
+
+.cta-email {
   background-color: #0a3641;
   color: #fff;
 }
