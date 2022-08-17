@@ -35,6 +35,7 @@ header {
 
 nav {
   margin-left: 25px;
+  font-size: larger;
   display: none;
   position: fixed;
   top: 45px;

@@ -37,7 +37,8 @@ header a {
   left: 110%;
 }
 
-.cta-hero {
+.cta-hero,
+.cta-sale {
   background-color: #f6ce2e;
   color: #0a3641;
 }
@@ -54,6 +55,11 @@ header a {
   min-width: 51.2px;
   text-align: center;
   margin-top: 5px;
+}
+
+.cta-email {
+  background-color: #0a3641;
+  color: #fff;
 }
 
 .active {
@@ -85,16 +91,6 @@ header a {
 
 .old-price {
   text-decoration: line-through;
-}
-
-.cta-sale {
-  background-color: #f6ce2e;
-  color: #fff;
-}
-
-.cta-email {
-  background-color: #0a3641;
-  color: #fff;
 }
 
 footer {
