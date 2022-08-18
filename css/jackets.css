@@ -8,6 +8,14 @@
 
 /*------------------------- Jackets Page -------------------------*/
 
+.jacket-header {
+  margin: 50px auto;
+}
+
+.jacket-header h1 {
+  font-size: 50px;
+}
+
 .jackets {
   max-width: 1000px;
   margin: 50px auto 100px;

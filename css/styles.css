@@ -71,20 +71,6 @@ img {
   width: 100%;
 }
 
-/*------------------------- Email Section -------------------------*/
-
-.email-input {
-  text-align: center;
-  width: 100%;
-}
-
-.email-input input {
-  border: 1px solid #0a3641;
-  border-radius: 5px;
-  margin: 10px 10px;
-  padding: 10px 30px 10px 45px;
-}
-
 /*------------------------- Footer Section -------------------------*/
 
 footer {

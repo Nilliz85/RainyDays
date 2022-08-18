@@ -8,11 +8,19 @@
 
 /*------------------------- Contact Page -------------------------*/
 
+.contact-header {
+  margin: 65px auto;
+}
+
+.contact-header h1 {
+  font-size: 50px;
+}
+
 .contact {
   background-color: #f3f0f0;
   border: solid 2px #0a3641;
   max-width: 1000px;
-  margin: 50px auto 150px;
+  margin: 0px auto 130px;
   padding: 50px 150px 150px;
   text-align: center;
 }
@@ -26,7 +34,6 @@ input,
 select,
 textarea {
   border: 1px solid #0a3641;
-  border-radius: 5px;
   margin: 10px auto;
   padding: 10px 10px 10px 10px;
 }
