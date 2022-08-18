@@ -1,0 +1,52 @@
+/*------------------------- Hero Page -------------------------*/
+.jacket-hero {
+  background: url("../images/hero/harvey-robinson-5BtddUXlOoU-unsplash.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
+}
+
+/*------------------------- Jackets Page -------------------------*/
+
+.jackets {
+  max-width: 1000px;
+  margin: 50px auto 100px;
+}
+
+.jackets .products {
+  animation: show-jackets 1s forwards;
+  opacity: 0;
+}
+
+@keyframes show-jackets {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 100px auto;
+  gap: 20px;
+}
+
+.products {
+  background-color: #f3f0f0;
+  padding: 20px;
+}
+
+.products img {
+  margin: 0px 0px 50px 0px;
+}
+
+.products h2,
+text {
+  text-align: left;
+}

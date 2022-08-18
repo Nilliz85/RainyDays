@@ -1,6 +1,6 @@
 /*------------------------- Home Page -------------------------*/
 .section-hero {
-  background: url("../images/hero-background-wide.jpg") center bottom no-repeat;
+  background: url("../images/hero/hero-background-wide.jpg") center bottom no-repeat;
   background-size: cover;
   min-height: 70vh;
   position: relative;
@@ -16,7 +16,7 @@
 
 .section-hero-content h1 {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /*------------------------- About Section -------------------------*/
@@ -74,7 +74,8 @@
 }
 
 .featured .products {
-  background-color: #5f9fad;
+  background-color: #f3f0f0;
+  border: solid 2px #0a3641;
   min-width: 14em;
   padding: 1em;
 }
@@ -116,17 +117,4 @@
 
 .instagram-grid-row-2 {
   grid-row: span 2;
-}
-
-.email-input {
-  margin: auto;
-  text-align: center;
-  width: 65%;
-}
-
-input {
-  border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  margin: 10px 10px;
-  padding: 10px 30px 10px 45px;
 }

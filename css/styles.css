@@ -26,6 +26,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-bottom: 2px solid #0a3641;
 }
 
 .header-logo {
@@ -70,7 +71,26 @@ img {
   width: 100%;
 }
 
+/*------------------------- Email Section -------------------------*/
+
+.email-input {
+  text-align: center;
+  width: 100%;
+}
+
+.email-input input {
+  border: 1px solid #0a3641;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px 30px 10px 45px;
+}
+
 /*------------------------- Footer Section -------------------------*/
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
 
 .footer {
   background-color: #5f9fad;
@@ -102,10 +122,6 @@ img {
   display: flex;
   flex-direction: column;
   margin: auto;
-}
-
-.footer-link {
-  margin: 15px auto;
 }
 
 .footer-social {

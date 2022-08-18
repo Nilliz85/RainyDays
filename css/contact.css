@@ -1,0 +1,67 @@
+/*------------------------- Hero Page -------------------------*/
+.contact-hero {
+  background: url("../images/hero/luke-helgeson-Gvre66F3ye0-unsplash.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
+}
+
+/*------------------------- Contact Page -------------------------*/
+
+.contact {
+  background-color: #f3f0f0;
+  border: solid 2px #0a3641;
+  max-width: 1000px;
+  margin: 50px auto 150px;
+  padding: 50px 150px 150px;
+  text-align: center;
+}
+
+.contact-logo {
+  max-width: 500px;
+  margin: 0px auto 50px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #0a3641;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px 10px 10px 10px;
+}
+
+textarea {
+  border: 2px solid #0a3641;
+  height: 74%;
+  min-height: 100px;
+  width: 110%;
+}
+
+.form-wrapper {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-entries input {
+  border: 2px solid #0a3641;
+  margin: 10px 10px;
+  padding: 10px 190px 10px 5px;
+}
+
+#jacket {
+  border: 2px solid #0a3641;
+  margin: 10px 10px;
+  padding: 10px 30px 10px 5px;
+}
+
+.cta {
+  margin: 0px 0px 10 0px 0px;
+}

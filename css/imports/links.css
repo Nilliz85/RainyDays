@@ -93,7 +93,10 @@ header a {
   text-decoration: line-through;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
+.footer-link {
+  margin: 15px auto;
+}
+
+.footer-link a {
+  color: #0a3641;
 }

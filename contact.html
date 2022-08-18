@@ -14,7 +14,7 @@
   <body>
     <header>
       <a href="index.html" class="header-logo"
-        ><img class="header-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
+        ><img class="header-logo" alt="company logo" src="images/brand/RainyDays_Logo_notext.png"
       /></a>
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu" />
@@ -27,6 +27,50 @@
         </ul>
       </nav>
     </header>
+
+    <section class="contact-hero">
+    </div>
+    </section>
+
+
+    <!-------------------------------- Contact Form -------------------------------->
+
+    <main class="contact">
+      <a href="index.html" class="contact-logo"
+      ><img class="contact-logo" alt="company logo" src="images/brand/RainyDays_Logo_notext.png"
+    /></a>  
+      <h1>Contact</h1>
+      <form method="POST">
+        <div class="form-wrapper">
+          <section class="form-entries">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" />
+            <label for="jacket">Jacket</label>
+            <select id="jacket" name="jacket">
+              <option value="Scott Storm XP">Scott Storm XP</option>
+              <option value="Scott Runner XP">Scott Runner XP</option>
+              <option value="Scott Windy XP">Scott Windy XP</option>
+              <option value="Scott Sailor XP">Scott Sailor XP</option>
+              <option value="Scott Breeze XP">Scott Breeze XP</option>
+              <option value="Scott Icy XP">Scott Icy XP</option>
+              <option value="Scott Forest XP">Scott Forest XP</option>
+            </select>
+          </section>
+          <section>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </section>
+        </div>
+        <div class="email-updates">
+          <input type="checkbox" id="email-updates" name="email-updates" />
+          <label for="email-updates">Sign up for email updates</label>
+        </div>
+        <input type="submit" value="Send Now" class="cta cta-large" />
+      </form>
+    </main>
+
     <!-------------------------------- Footer -------------------------------->
 
     <footer class="footer">
