@@ -37,6 +37,12 @@
     text-align: left;
   }
 
+  .about-text {
+    max-width: 580;
+    margin: 50px auto;
+    text-align: center;
+  }
+
   .featured {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -55,6 +61,10 @@
 
   .instagram-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-us-instagram-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*---------------------- 800px ----------------------*/
@@ -75,8 +85,35 @@
     margin: 45px 0px 0px 100px;
   }
 
+  .about-text {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: none;
+    margin: 50px auto;
+    text-align: left;
+  }
+
+  .about-us-instagram {
+    padding: 50px;
+  }
+
   .instagram-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .instagram-grid-col-2 {
+    grid-column: span 2;
+  }
+
+  .insta {
+    min-width: 20px;
+  }
+
+  .about-us-instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-us-instagram-grid-col-2 {
+    grid-column: span 2;
   }
 
   .cta-large {
@@ -95,10 +132,20 @@
   .footer-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .winner {
+    margin: 200px 150px;
+    padding-top: 50px;
+  }
 }
 /*---------------------- 1200px ----------------------*/
 @media (min-width: 1200px) {
   .instagram-grid {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .about-us-instagram {
+    padding: 200px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -111,9 +111,12 @@
   height: 100%;
   object-fit: cover;
 }
+.insta {
+  min-width: 400px;
+}
 
 .instagram-grid-col-2 {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .instagram-grid-row-2 {

@@ -7,4 +7,93 @@
   position: relative;
 }
 
-/*------------------------- About Us Page -------------------------*/
+/*-------------------------------- About Us Page --------------------------------*/
+
+/*------------------------- About Section -------------------------*/
+
+.about-us {
+  margin: 50px auto;
+  max-width: 1700px;
+}
+
+.about-text {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 400px;
+  padding: auto;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.about-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-us-text,
+.instagram-text {
+  float: left;
+  line-height: 2.5;
+  color: #0a3641;
+}
+
+/*------------------------- About Us Instagram Section -------------------------*/
+
+.about-us-instagram {
+  display: grid;
+  grid-template-columns: (1, 1fr);
+  background-color: #f3f0f0;
+  padding: 20px;
+  border-bottom: solid 2px #0a3641;
+}
+
+.about-us-instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.about-us-instagram-grid * > img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-instagram-grid-col-2 {
+  grid-column: span 1;
+}
+
+.insta {
+  min-width: 400px;
+}
+
+/*------------------------- Instagram Competition Section -------------------------*/
+
+.instagram-competition {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.instagram-text {
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+
+/*------------------------- Winner Section -------------------------*/
+.winner {
+  border: 2px solid #0a3641;
+  background-color: #f3f0f0;
+  text-decoration: underline;
+  margin: 20px 10px;
+  padding-top: 50px;
+}
+
+.winner-image {
+  margin: 50px auto 50px;
+  max-width: 1200px;
+}
+
+.congratz {
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
