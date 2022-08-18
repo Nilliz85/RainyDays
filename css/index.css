@@ -2,6 +2,7 @@
 .section-hero {
   background: url("../images/hero/hero-background-wide.jpg") center bottom no-repeat;
   background-size: cover;
+  border: solid 3px #0a3641;
   min-height: 70vh;
   position: relative;
 }

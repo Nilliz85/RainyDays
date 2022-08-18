@@ -2,6 +2,7 @@
 .about-us-hero {
   background: url("../images/hero/vas-soshnikov-YA2LVz-HvpE-unsplash.jpg") center center no-repeat;
   background-size: cover;
+  border: solid 3px #0a3641;
   min-height: 70vh;
   position: relative;
 }
