@@ -146,6 +146,10 @@
     margin: 200px 150px;
     padding-top: 50px;
   }
+
+  .jacket-general {
+    flex-direction: row;
+  }
 }
 /*---------------------- 1200px ----------------------*/
 @media (min-width: 1200px) {

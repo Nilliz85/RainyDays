@@ -1,39 +1,58 @@
+/*------------------------- Product Nav -------------------------*/
+header {
+  border-bottom: 2px solid #0a3641;
+  margin-bottom: 50px;
+}
+
 /*------------------------- Product Specific Page -------------------------*/
 .jacket-general {
   display: flex;
-  max-width: 1000px;
-  flex-direction: row;
-  margin: auto;
-  margin-bottom: 50px;
+  flex-direction: column;
+  border: 2px solid #0a3641;
+  max-width: 1400px;
+  margin: 50px auto 100px auto;
 }
 .jacket-general > * {
   flex: 1;
 }
 
 .product-image {
-  border: 2px solid #0a3641;
-  padding: 10px;
+  max-width: 600px;
+  padding: 30px;
 }
 
-img {
-  width: 100%;
+.main-picture {
+  width: 95%;
 }
 
 .jacket__details {
   background-color: #f3f0f0;
-  padding: 0px 30px;
+  max-width: 600px;
+  padding: 30px;
 }
 .jacket__details a {
   display: block;
-  margin: auto;
-}
-.jacket-specific__price {
-  font-size: 1.5em;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-.jacket-image_thumbnails {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  margin-top: 5px;
+.jacket-specific__price {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.jacket-specific__price-sale {
+  text-decoration: 5px red line-through;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.jacket-specific__price-newprice {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0px;
 }
