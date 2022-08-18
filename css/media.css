@@ -56,11 +56,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .product-specific {
+  .jacket-specific {
     flex-direction: column-reverse;
   }
 
-  .product-specific__details {
+  .jacket-specific__details {
     margin-bottom: 50px;
   }
 
@@ -133,7 +133,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .product-specific {
+  .jacket-specific {
     flex-direction: row;
     margin: 50px auto;
   }
