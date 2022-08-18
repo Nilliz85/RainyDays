@@ -30,11 +30,12 @@
   font-size: 1.2em;
   line-height: 2.5;
   color: #0a3641;
+  text-align: center;
 }
 
 .about-header {
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .about-us {

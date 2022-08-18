@@ -37,6 +37,15 @@
     text-align: left;
   }
 
+  .about-header {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .about-us-text {
+    text-align: left;
+  }
+
   .about-text {
     max-width: 580;
     margin: 50px auto;
