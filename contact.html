@@ -19,12 +19,13 @@
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu" />
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class="main-nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="jackets.html">Jackets</a></li>
           <li><a href="about_us.html">About Us</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="checkout.html" class="cart" ><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
       </nav>
     </header>
 
@@ -39,10 +40,10 @@
     <!-------------------------------- Contact Form -------------------------------->
 
     <main class="contact">
-      <a href="index.html" class="contact-logo"
-      ><img class="contact-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
+      <a href="index.html" class="contact-checkout-logo"
+      ><img class="contact-checkout-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
     /></a> 
-      <form method="POST">
+      <form action="">
         <div class="form-wrapper">
           <section class="form-entries">
             <label for="name">Full Name</label>
@@ -69,9 +70,10 @@
           <input type="checkbox" id="email-updates" name="email-updates" />
           <label for="email-updates">Sign up for email updates</label>
         </div>
-        <input type="submit" value="Send Now" class="cta cta-large" />
+        <a href="/confirmation/contact_confirmation.html" class="cta cta-large">Send Now</a>
       </form>
     </main>
+
 
 
     <!-------------------------------- Footer -------------------------------->

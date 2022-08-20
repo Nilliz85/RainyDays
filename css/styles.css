@@ -53,6 +53,12 @@ nav li {
   padding: 20px 30px;
 }
 
+.cart {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
 #hamburger-menu {
   display: none;
 }
@@ -68,6 +74,11 @@ footer {
 
 img {
   width: 100%;
+}
+
+.contact-checkout-logo {
+  max-width: 300px;
+  margin: 50px auto 60px;
 }
 
 /*------------------------- Footer Section -------------------------*/
@@ -106,14 +117,4 @@ footer {
   display: flex;
   flex-direction: column;
   margin: auto;
-}
-
-.footer-social {
-  list-style: none;
-  text-align: center;
-  margin: 50px 90px 50px 50px;
-}
-
-.fa-brands {
-  color: #0a3641;
 }

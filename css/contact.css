@@ -21,15 +21,10 @@
 .contact {
   background-color: #f3f0f0;
   border: solid 2px #0a3641;
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0px auto 130px;
   padding: 50px 150px 150px;
   text-align: center;
-}
-
-.contact-logo {
-  max-width: 300px;
-  margin: 50px auto 60px;
 }
 
 input,

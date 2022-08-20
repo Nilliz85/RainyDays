@@ -1,0 +1,23 @@
+header {
+  border-bottom: 2px solid #0a3641;
+}
+
+/*------------------------- Confirmation -------------------------*/
+
+.contact_confirmation {
+  border: 2px solid #0a3641;
+  background-color: #f3f0f0;
+  margin: 100px auto 150px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.confirm-text,
+.confirm-text p {
+  padding: 50px;
+}
+
+.confirm-text p {
+  font-size: 20px;
+  text-decoration: underline;
+}

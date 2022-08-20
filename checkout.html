@@ -1,43 +1,131 @@
-<!-------------------------------- Footer -------------------------------->
-
-<footer class="footer">
-  <section class="footer-grid">
-    <div class="logo-col">
-      <a href="index.html" class="footer-logo"
-        ><img class="footer-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Contact Form" />
+    <title>RainyDays | Checkout</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/54814e5974.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="header-logo"
+        ><img class="header-logo" alt="company logo" src="images/brand/RainyDays_Logo_notext.png"
       /></a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul class="main-nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="jackets.html">Jackets</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="checkout.html" class="cart" ><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+      </nav>
+    </header>
+
+    <div class="contact-header">
+      <h1>Checkout</h1>
     </div>
-    <nav>
-      <ul class="footer-nav">
-        <li class="footer-header"><h2>RAINYDAYS</h2></li>
-        <li class="footer-link"><a href="jackets.html">Jacket</a></li>
-        <li class="footer-link">
-          <a class="footer-link" href="https://www.instagram.com/rainy_days_1985/" target="_blank">#RAINYDAYS</a>
-        </li>
-        <li class="footer-link"><a href="about_us.html">About Us</a></li>
-        <li class="footer-link"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
 
-    <ul class="footer-social">
-      <li class="footer-header"><h2>Social Media</h2></li>
-      <li class="footer-link">
-        <a class="footer-link instagram" href="https://www.instagram.com/rainy_days_1985/" target="_blank"
-          ><i class="fa-brands fa-instagram fa-2x"></i
-        ></a>
-      </li>
-      <li class="footer-link">
-        <a class="footer-link facebook" href="https://www.facebook.com/hashtag/rainydays" target="_blank"
-          ><i class="fa-brands fa-facebook-f fa-2x"></i
-        ></a>
-      </li>
-      <li class="footer-link">
-        <a class="footer-link twitter" href="https://twitter.com/search?q=%23rainydays&src=typed_query&f=image" target="_blank"
-          ><i class="fa-brands fa-twitter fa-2x"></i
-        ></a>
-      </li>
-    </ul>
-  </section>
+    <!-------------------------------- checkout Form -------------------------------->
 
-  <p class="copyright">Copyright &copy; 2027 by RAINYDAYS, Inc. All rights reserved.</p>
-</footer>
+    <main class="checkout">
+      <a href="index.html" class="contact-checkout-logo"
+        ><img class="contact-checkout-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
+      /></a>
+
+      <div class="shopping-cart">
+        <p class="item"><a href="/products/scott_icy.html">Scott Icy XP</a> <span class="price">$400</span></p>
+        <p class="item"><a href="/products/scott_breeze.html">Scott Breeze XP</a> <span class="price">$500</span></p>
+        <p class="item"><a href="/products/scott_windy.html">Scott Windy XP</a> <span class="price">$500</span></p>
+        <hr>
+        <p class="item">Total: <span class="price"><strong>$1900</strong></span></p>
+      </div>
+      <form action="">
+        <div class="checkout-group">
+          <div class="checkout-info">
+            <section class="form-entries">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" /><br>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@email.com" /><br>
+              <label for="adress">Adress</label>
+              <input type="text" id="adress" name="adress" placeholder="Sir Matt Busby Way" /><br>
+              <label for="zip-code">Zip-Code</label>
+              <input type="email" id="email" name="email" placeholder="M16 0RA" />
+            </section>
+          </div>
+          <div class="checkout-info">
+            <section class="form-entries">
+              <label for="name">Name on Card</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" />
+              <label for="creditcard">Creditcard</label>
+              <input type="creditcard" id="creditcard" name="creditcard" placeholder="xxxx-xxxx-xxxx-xxxx" /><br>
+              <label for="expdate">Exp Date</label>
+              <input type="text" id="expdate" name="expdate" placeholder="03/24" /><br>
+              <label for="ccv">CCV</label>
+              <input type="ccv" id="ccv" name="ccv" placeholder="123" />
+            </section>
+          </div>
+        </div>
+        <div class="same-as-billing">
+          <input type="checkbox" id="same-as-billing" name="same-as-billing" />
+          <label for="same-as-billing">Shipping adress same as billing</label>
+        </div>
+        <a href="/confirmation/contact_confirmation.html" class="cta cta-large">Confirm</a>
+      </form>
+    </main>
+
+    <!-------------------------------- Footer -------------------------------->
+    <footer class="footer">
+      <section class="footer-grid">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo"
+            ><img class="footer-logo" alt="company logo" src="images/brand/RainyDays_Logo.png"
+          /></a>
+        </div>
+        <nav>
+          <ul class="footer-nav">
+            <li class="footer-header"><h2>RAINYDAYS</h2></li>
+            <li class="footer-link"><a href="jackets.html">Jacket</a></li>
+            <li class="footer-link">
+              <a class="footer-link" href="https://www.instagram.com/rainy_days_1985/" target="_blank">#RAINYDAYS</a>
+            </li>
+            <li class="footer-link"><a href="about_us.html">About Us</a></li>
+            <li class="footer-link"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <ul class="footer-social">
+          <li class="footer-header"><h2>Social Media</h2></li>
+          <li class="footer-link">
+            <a class="footer-link instagram" href="https://www.instagram.com/rainy_days_1985/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-2x"></i
+            ></a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-link facebook" href="https://www.facebook.com/hashtag/rainydays" target="_blank"
+              ><i class="fa-brands fa-facebook-f fa-2x"></i
+            ></a>
+          </li>
+          <li class="footer-link">
+            <a
+              class="footer-link twitter"
+              href="https://twitter.com/search?q=%23rainydays&src=typed_query&f=image"
+              target="_blank"
+              ><i class="fa-brands fa-twitter fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+
+      <p class="copyright">Copyright &copy; 2027 by RAINYDAYS, Inc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
