@@ -27,16 +27,16 @@
   margin: 50px auto;
 }
 
-.about-us-text {
+.about-us-text_index {
   font-size: 1.2em;
   line-height: 2.5;
   color: #0a3641;
-  text-align: center;
+  text-align: left;
 }
 
-.about-header {
+.about-header_index {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-us {

@@ -37,11 +37,6 @@
     text-align: left;
   }
 
-  .about-header {
-    margin-bottom: 30px;
-    text-align: left;
-  }
-
   .about-us-text {
     text-align: left;
   }
@@ -50,10 +45,6 @@
     max-width: 580;
     margin: 50px auto;
     text-align: center;
-  }
-
-  .featured {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .jacket-specific {
@@ -79,6 +70,12 @@
 /*---------------------- 800px ----------------------*/
 
 @media (min-width: 800px) {
+  .cart {
+    position: absolute;
+    top: 23px;
+    right: 100px;
+  }
+
   .section-hero {
     background-position-x: right;
   }
@@ -89,16 +86,19 @@
     transform: none;
   }
 
-  .featured {
-    grid-template-columns: repeat(3, 1fr);
-    margin: 45px 0px 0px 100px;
-  }
-
   .about-text {
     grid-template-columns: repeat(3, 1fr);
     max-width: none;
     margin: 50px auto;
     text-align: left;
+  }
+  .about-header {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .featured {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about-us-instagram {
@@ -151,8 +151,21 @@
     flex-direction: row;
   }
 }
+
+/*---------------------- 1000px ----------------------*/
+@media (min-width: 1000px) {
+  .checkout-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /*---------------------- 1200px ----------------------*/
 @media (min-width: 1200px) {
+  .featured {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 45px 0px 0px 100px;
+  }
+
   .instagram-grid {
     grid-template-columns: repeat(6, 1fr);
   }

@@ -1,11 +1,6 @@
 /*------------------------- Hero Section -------------------------*/
 .about-us-hero {
   background: url("../images/hero/vas-soshnikov-YA2LVz-HvpE-unsplash.jpg") center center no-repeat;
-  background-size: cover;
-  border-top: solid 3px #0a3641;
-  border-bottom: solid 3px #0a3641;
-  min-height: 70vh;
-  position: relative;
 }
 
 /*-------------------------------- About Us Page --------------------------------*/
@@ -17,18 +12,18 @@
   max-width: 1700px;
 }
 
+.about-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .about-text {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   max-width: 400px;
   padding: auto;
   margin: 50px auto;
-  text-align: center;
-}
-
-.about-header {
-  margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-us-text,
