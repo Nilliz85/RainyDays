@@ -1,6 +1,7 @@
 /*------------------------- Hero Page -------------------------*/
 .contact-hero {
   background: url("../images/hero/luke-helgeson-Gvre66F3ye0-unsplash.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 /*------------------------- Contact Page -------------------------*/

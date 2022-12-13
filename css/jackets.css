@@ -1,6 +1,7 @@
 /*------------------------- Hero Page -------------------------*/
 .jacket-hero {
   background: url("../images/hero/harvey-robinson-5BtddUXlOoU-unsplash.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 /*------------------------- Jackets Page -------------------------*/

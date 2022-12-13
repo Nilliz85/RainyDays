@@ -1,6 +1,7 @@
 /*------------------------- Hero Section -------------------------*/
 .about-us-hero {
   background: url("../images/hero/vas-soshnikov-YA2LVz-HvpE-unsplash.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 /*-------------------------------- About Us Page --------------------------------*/
