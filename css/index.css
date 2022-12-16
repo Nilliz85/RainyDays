@@ -11,7 +11,7 @@
 .section-hero-content {
   position: absolute;
   text-align: center;
-  margin: 100px 200px auto;
+  margin: 130px 200px auto;
   transform: translateX(-50%);
   min-width: 210px;
 }
@@ -31,12 +31,12 @@
   font-size: 1.2em;
   line-height: 2.5;
   color: #0a3641;
-  text-align: left;
+  text-align: center;
 }
 
 .about-header_index {
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .about-us {
@@ -54,9 +54,9 @@
   text-decoration: underline;
   font-style: oblique;
   float: right;
-  margin-right: 11%;
+  margin-right: 20px;
   color: #0a3641;
-  font-size: 1.2em;
+  font-size: 1em;
   transition: all 0.3s;
 }
 

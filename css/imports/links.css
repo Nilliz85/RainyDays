@@ -58,6 +58,12 @@ header a {
   margin-top: 5px;
 }
 
+.cta-hero {
+  width: 250px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .cta-email {
   background-color: #0a3641;
   color: #fff;
