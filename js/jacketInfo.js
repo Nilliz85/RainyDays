@@ -49,7 +49,7 @@ const jackets = {
     image: "../images/jackets/Scott_Runner_XP.png",
     description:
       "Runner is our most lightweight jacket. With its waterproof mesh exterior And minimal  insolation this is a jacket that will be perfect for your Morning run or summer hike or maybe a sunset bicycle ride.",
-  }
+  },
 };
 
 export { jackets };

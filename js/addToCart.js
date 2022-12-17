@@ -1,4 +1,4 @@
-import { jackets } from "./jacketInfo";
+import { jackets } from "./jacketInfo.js";
 
 console.log(jackets);
 
@@ -42,13 +42,26 @@ if (jacketsInCart) {
         </div>
         <div class="jacket-in-cart-info-row2">
           <p class="jacket-in-cart-price">${jacket.price}</p>
-          <button class="jacket-in-cart-button cta">Remove</button>
+          <button class="jacket-in-cart-button cta" id="remove-from-cart">Remove</button>
         </div>
       </div>
     </div>`;
   });
 }
 
-console.log(jacketsInCart);
+const removeFromCartButton = document.getElementById("remove-from-cart");
+removeFromCartButton.addEventListener("click", function (e) {
+  e.preventDefault();
+  removeFromCart(game.id);
+});
+
+function removeFromCart(jacketId) {
+  const index = cart.indexOf(jacketId);
+  if (index !== -1) {
+    cart.splice(index, 1);
+  }
+  sessionStorage.setItem("cart", JSON.stringify(cart));
+  renderCart();
+}
 
 export { addToCart, cart };
