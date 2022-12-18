@@ -7,11 +7,12 @@
 /*------------------------- Jackets Page -------------------------*/
 
 .jacket-header {
-  margin: 50px auto;
+  margin: auto;
 }
 
 .jacket-header h1 {
   font-size: 50px;
+  text-align: center;
 }
 
 .jackets {
@@ -36,10 +37,19 @@
   }
 }
 
-.product-list {
+.display-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   margin: 100px auto;
+  gap: 20px;
+}
+.display-container a,
+a:visited {
+  color: #0a3641;
+}
+
+.product-list {
+  margin: 20px auto;
   gap: 20px;
 }
 
@@ -49,6 +59,7 @@
 }
 
 .products img {
+  height: 500px;
   margin: 0px 0px 50px 0px;
 }
 

@@ -21,6 +21,10 @@
     <link href="css/media.css" rel="stylesheet" />
 
     <!------------------------  SCRIPTS ------------------------>
+    <script type="module" src="../js/addToCart.js"></script>
+    <script type="module" src="../js/jacketInfo.js"></script>
+    <script type="module" src="../js/jackets.js"></script>
+
     <!-- Hotjar Tracking Code for https://rainydayz.netlify.app/ -->
 <script>
   (function(h,o,t,j,a,r){
@@ -60,15 +64,22 @@
 
       <!-------------------------------- Jackets -------------------------------->
       <main class="jackets">
-      <div class="jacket-header">
-        <h1>Our Jackets</h1>
-      </div>
-      <section class="product-list">
+        <div class="jacket-header">
+          <h1>Our Jackets</h1>
+        </div>
+
+      <section class="display-container" id="jackets-container">
+      </section>
+        
+
+
+  
+      <!-- <section class="product-list">
         <div class="products">
           <img src="images/jackets/Scott_Windy_XP.png" alt="Scott Windy XP" />
           <h2>Scott Windy XP</h2>
           <p>$500</p>
-          <a href="products/scott_windy.html" class="cta cta-small">View</a>
+          <a href="products/specific_jacket.html" class="cta cta-small">View</a>
         </div>
         <div class="products">
           <img src="images/jackets/Scott_Icy_XP.png" alt="Scott icy XP" />
@@ -115,7 +126,9 @@
           <p>$500</p>
           <a href="/products/scott_breeze.html" class="cta cta-small">View</a>
         </div>
-      </section>
+      </section> -->
+
+
       <div class="email-input">
         <form action="">
           <label for="email">Enter Email to subscribe to our news letter</label>

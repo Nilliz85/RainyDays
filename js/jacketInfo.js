@@ -50,6 +50,13 @@ const jackets = {
     description:
       "Runner is our most lightweight jacket. With its waterproof mesh exterior And minimal  insolation this is a jacket that will be perfect for your Morning run or summer hike or maybe a sunset bicycle ride.",
   },
+  "08": {
+    name: "Scott Forest XP",
+    price: 120,
+    image: "../images/jackets/Scott_Forest_XP.png",
+    description:
+      "Forrest is our only non-waterproof product, however this fits nicely underneath all of our other jackets. sometimes you may want a lightweight jacket butt still want the possibility of  being warmer if you think the weather might change. Summer evenings on the porch or in the yard, morning walks in the forrest, This jacket will keep you warm.",
+  },
 };
 
 export { jackets };

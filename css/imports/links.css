@@ -48,6 +48,13 @@ header a {
   text-align: center;
 }
 
+.purchase-button {
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+  margin: auto;
+}
+
 .cta-small {
   padding: 8px 20px;
   font-size: 0.8em;
@@ -64,7 +71,8 @@ header a {
   font-weight: bold;
 }
 
-.cta-email {
+.cta-email,
+.cta-remove {
   background-color: #0a3641;
   color: #fff;
 }

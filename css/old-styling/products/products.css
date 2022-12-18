@@ -1,7 +1,6 @@
 /*------------------------- Product Nav -------------------------*/
 header {
   border-bottom: 2px solid #0a3641;
-  margin-bottom: 50px;
 }
 
 /*------------------------- Product Specific Page -------------------------*/
@@ -16,7 +15,7 @@ header {
   flex: 1;
 }
 
-.product-image {
+.jacket-general .product-image {
   max-width: 600px;
   padding: 30px;
 }
@@ -40,7 +39,7 @@ header {
   text-align: center;
   font-size: 1.5em;
   margin-top: 100px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .jacket-specific__price-sale {
@@ -55,4 +54,12 @@ header {
   text-align: center;
   font-size: 1.5em;
   margin-top: 0px;
+}
+
+.jacket-specific {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #0a3641;
+  max-width: 1400px;
+  margin: 50px auto 100px auto;
 }

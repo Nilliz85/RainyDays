@@ -1,0 +1,33 @@
+.shopping-cart {
+  background-color: #fff;
+  border: 2px solid #0a3641;
+  text-align: left;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.chosen-jacket {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+
+.chosen-jacket-image {
+  max-width: 100px;
+  margin-top: 50px;
+}
+
+.chosen-jacket-image img {
+  padding-left: 20px;
+}
+
+.chosen-jacket-description {
+  max-width: 600px;
+}
+
+.chosen-jacket-info-row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 550px;
+  margin-bottom: 30px;
+}

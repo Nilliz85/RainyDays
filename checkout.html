@@ -15,6 +15,7 @@
     <!------------------------  CSS ------------------------>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/checkout.css" rel="stylesheet" />
+    <link href="css/shoppingCart.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet" />
 
     <!------------------------  ICONS ------------------------>
@@ -24,6 +25,7 @@
     <script type="module" src="./js/addToCart.js"></script>
     <script type="module" src="./js/jacketInfo.js"></script>
     <script type="module" src="./js/shoppingCart.js"></script>
+    <script type="module" src="./js/contact_validation.js"></script>
 
     <!-- Hotjar Tracking Code for https://rainydayz.netlify.app/ -->
 <script>
@@ -73,6 +75,7 @@
         <h2>Shopping Cart</h2>
         <hr>
         <div class="jackets-in-cart">
+          <h3 id="empty-cart">Your shopping cart is currently empty...</h3>
         </div>
         <!-- <p class="item"><a href="/products/scott_icy.html">Scott Icy XP</a> <span class="price">$400</span></p>
         <p class="item"><a href="/products/scott_breeze.html">Scott Breeze XP</a> <span class="price">$500</span></p>
@@ -115,7 +118,8 @@
           <input type="checkbox" id="same-as-billing" name="same-as-billing" />
           <label for="same-as-billing">Shipping adress same as billing</label>
         </div>
-        <a href="/confirmation/checkout_confirmation.html" class="cta cta-large">Confirm</a>
+        <button class="cta cta-large">Confirm</button>
+        <!-- <a href="/confirmation/checkout_confirmation.html" class="cta cta-large">Confirm</a> -->
       </form>
     </main>
 
