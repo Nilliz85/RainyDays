@@ -1,3 +1,5 @@
+// the jacket object containing all the info and images and prices of all the jackets
+
 const jackets = {
   "01": {
     name: "Scott Windy XP",
